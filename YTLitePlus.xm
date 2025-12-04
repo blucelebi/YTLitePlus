@@ -1,4 +1,5 @@
 #import "YTLitePlus.h"
+#import <Foundation/Foundation.h>
 
 NSBundle *YTLitePlusBundle() {
     static NSBundle *bundle = nil;
@@ -1326,3 +1327,4 @@ NSInteger pageStyle = 0;
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"playerGesturesHapticFeedback_enabled"]; 
     }
 }
+
